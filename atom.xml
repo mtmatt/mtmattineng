@@ -6,7 +6,7 @@
   <link href="http://eng.mtmatt.page/atom.xml" rel="self"/>
   
   <link href="http://eng.mtmatt.page/"/>
-  <updated>2021-07-17T11:11:09.407Z</updated>
+  <updated>2021-07-17T11:26:19.188Z</updated>
   <id>http://eng.mtmatt.page/</id>
   
   <author>
@@ -21,17 +21,39 @@
     <link href="http://eng.mtmatt.page/2021/07/17/hello-world/"/>
     <id>http://eng.mtmatt.page/2021/07/17/hello-world/</id>
     <published>2021-07-17T00:00:00.000Z</published>
-    <updated>2021-07-17T11:11:09.407Z</updated>
+    <updated>2021-07-17T11:26:19.188Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello,</p><p>I am mtMatt.</p><p>Welcome to my English practice page.</p>]]></content>
+    <content type="html"><![CDATA[<p>Hello, I am mtMatt. Welcome to my English practice page. Here are something information in english.</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Hello,&lt;/p&gt;
-&lt;p&gt;I am mtMatt.&lt;/p&gt;
-&lt;p&gt;Welcome to my English practice page.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Hello, I am mtMatt. Welcome to my English practice page. Here are something information in english.&lt;/p&gt;
 </summary>
+      
+    
+    
+    
+    <category term="info" scheme="http://eng.mtmatt.page/categories/info/"/>
+    
+    
+    <category term="hello" scheme="http://eng.mtmatt.page/tags/hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Summer Vacation</title>
+    <link href="http://eng.mtmatt.page/2021/07/17/SummerVavation/"/>
+    <id>http://eng.mtmatt.page/2021/07/17/SummerVavation/</id>
+    <published>2021-07-17T00:00:00.000Z</published>
+    <updated>2021-07-17T11:40:57.809Z</updated>
+    
+    <content type="html"><![CDATA[<p>Because of COVID-19. The beginning of summer vacation in Taiwan changes from 7/1 to 5/12. It sounds great to students. But it is terrible news to many parents. To me, it’s time for me to learn more about programing techniques and practice them.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Because of COVID-19. The beginning of summer vacation in Taiwan changes from 7/1 to 5/12. It sounds great to students. But it is terrible</summary>
       
     
     
