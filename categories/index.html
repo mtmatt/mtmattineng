@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
-	<title>categories | mtMatt in English</title>
+	<title>Categories | mtMatt in English</title>
 	<link rel="stylesheet" href="/css/style.css" />
 	
       <link rel="alternate" href="/atom.xml" title="mtMatt in English" type="application/atom+xml">
@@ -29,12 +29,45 @@
 	</header>
 
 	<main>
-		<article>
-	<h1>categories</h1>
+		<h1>Categories</h1>
 
+<ul class="archive">
 	
+		
+		<li class="archive__year archive__expendable">
+			<span>info</span>
+			<ul>
+			
+				
+					
+					
+						<li class="archive__entry"><a href="/2021/07/17/SummerVavation/">Summer Vacation</a></li>
+					
+
+				
+			
+				
+					
+					
+						<li class="archive__entry"><a href="/2021/07/18/AtCoderBeginnerContest/">AtCoder Beginner Contest</a></li>
+					
+
+				
+			
+			</ul>
+		</li>
 	
-</article>
+</ul>
+
+<script>
+	const expandables = document.querySelectorAll('.archive__expendable')
+	for(let i = 0; i < expandables.length; i++) {
+		expandables[i].addEventListener('click', (e) => {
+			e.stopPropagation()
+			expandables[i].classList.toggle('archive__expendable_collapsed')
+		})
+	}
+</script>
 
 	</main>
 
