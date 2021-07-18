@@ -118,34 +118,7 @@
 	
 
 	
-		<p>‘’’cpp<br>#include&lt;bits/stdc++.h&gt;<br>using namespace std;<br>#define INF 0x3f3f3f3f3f3f3f3f</p>
-<p>long long tb[1005][1005],dp[1005][1005];</p>
-<p>int main(){<br>    ios::sync_with_stdio(0);cin.tie(0);</p>
-<pre><code>long long h,w,c;
-cin&gt;&gt;h&gt;&gt;w&gt;&gt;c;
-for(int i=1;i&lt;=h;i++) for(int j=1;j&lt;=w;j++)&#123;
-    cin&gt;&gt;tb[i][j];
-&#125;
-for(int i=0;i&lt;=h;i++)&#123;
-    dp[i][0]=INF;
-&#125;
-for(int j=0;j&lt;=w;j++)&#123;
-    dp[0][j]=INF;
-&#125;
-
-long long ans=INF;
-for(int i=1;i&lt;=h;i++)&#123;
-    for(int j=1;j&lt;=w;j++)&#123;
-        dp[i][j]=min(&#123;tb[i][j],dp[i-1][j]+c,dp[i][j-1]+c&#125;);
-        ans=min(&#123;ans,dp[i-1][j]+tb[i][j]+c,dp[i][j-1]+tb[i][j]+c&#125;);
-    &#125;
-&#125;
-
-cout&lt;&lt;ans;
-return 0;
-</code></pre>
-<p>}<br>‘’’</p>
-
+		<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> INF 0x3f3f3f3f3f3f3f3f</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> tb[<span class="number">1005</span>][<span class="number">1005</span>],dp[<span class="number">1005</span>][<span class="number">1005</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> h,w,c;</span><br><span class="line">    cin&gt;&gt;h&gt;&gt;w&gt;&gt;c;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=h;i++) <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=w;j++)&#123;</span><br><span class="line">        cin&gt;&gt;tb[i][j];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=h;i++)&#123;</span><br><span class="line">        dp[i][<span class="number">0</span>]=INF;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=w;j++)&#123;</span><br><span class="line">        dp[<span class="number">0</span>][j]=INF;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> ans=INF;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=h;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=w;j++)&#123;</span><br><span class="line">            dp[i][j]=<span class="built_in">min</span>(&#123;tb[i][j],dp[i<span class="number">-1</span>][j]+c,dp[i][j<span class="number">-1</span>]+c&#125;);</span><br><span class="line">            ans=<span class="built_in">min</span>(&#123;ans,dp[i<span class="number">-1</span>][j]+tb[i][j]+c,dp[i][j<span class="number">-1</span>]+tb[i][j]+c&#125;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    cout&lt;&lt;ans;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 	
 
 	
