@@ -64,4 +64,29 @@
     
   </entry>
   
+  <entry>
+    <title>Test Code</title>
+    <link href="http://eng.mtmatt.page/2021/07/17/testcode/"/>
+    <id>http://eng.mtmatt.page/2021/07/17/testcode/</id>
+    <published>2021-07-17T00:00:00.000Z</published>
+    <updated>2021-07-18T07:52:24.637Z</updated>
+    
+    <content type="html"><![CDATA[<p>‘’’cpp<br>#include&lt;bits/stdc++.h&gt;<br>using namespace std;<br>#define INF 0x3f3f3f3f3f3f3f3f</p><p>long long tb[1005][1005],dp[1005][1005];</p><p>int main(){<br>    ios::sync_with_stdio(0);cin.tie(0);</p><pre><code>long long h,w,c;cin&gt;&gt;h&gt;&gt;w&gt;&gt;c;for(int i=1;i&lt;=h;i++) for(int j=1;j&lt;=w;j++)&#123;    cin&gt;&gt;tb[i][j];&#125;for(int i=0;i&lt;=h;i++)&#123;    dp[i][0]=INF;&#125;for(int j=0;j&lt;=w;j++)&#123;    dp[0][j]=INF;&#125;long long ans=INF;for(int i=1;i&lt;=h;i++)&#123;    for(int j=1;j&lt;=w;j++)&#123;        dp[i][j]=min(&#123;tb[i][j],dp[i-1][j]+c,dp[i][j-1]+c&#125;);        ans=min(&#123;ans,dp[i-1][j]+tb[i][j]+c,dp[i][j-1]+tb[i][j]+c&#125;);    &#125;&#125;cout&lt;&lt;ans;return 0;</code></pre><p>}<br>‘’’</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;‘’’cpp&lt;br&gt;#include&amp;lt;bits/stdc++.h&amp;gt;&lt;br&gt;using namespace std;&lt;br&gt;#define INF 0x3f3f3f3f3f3f3f3f&lt;/p&gt;
+&lt;p&gt;long long tb[1005][1005],dp[1005</summary>
+      
+    
+    
+    
+    <category term="info" scheme="http://eng.mtmatt.page/categories/info/"/>
+    
+    
+    <category term="taiwan" scheme="http://eng.mtmatt.page/tags/taiwan/"/>
+    
+  </entry>
+  
 </feed>
