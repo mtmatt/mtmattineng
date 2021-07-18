@@ -6,7 +6,7 @@
   <link href="http://eng.mtmatt.page/atom.xml" rel="self"/>
   
   <link href="http://eng.mtmatt.page/"/>
-  <updated>2021-07-17T11:26:19.188Z</updated>
+  <updated>2021-07-18T03:53:46.599Z</updated>
   <id>http://eng.mtmatt.page/</id>
   
   <author>
@@ -17,19 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello world!</title>
-    <link href="http://eng.mtmatt.page/2021/07/17/hello-world/"/>
-    <id>http://eng.mtmatt.page/2021/07/17/hello-world/</id>
-    <published>2021-07-17T00:00:00.000Z</published>
-    <updated>2021-07-17T11:26:19.188Z</updated>
+    <title>AtCoder Beginner Contest</title>
+    <link href="http://eng.mtmatt.page/2021/07/18/AtCoderBeginnerContest/"/>
+    <id>http://eng.mtmatt.page/2021/07/18/AtCoderBeginnerContest/</id>
+    <published>2021-07-18T00:00:00.000Z</published>
+    <updated>2021-07-18T03:53:46.599Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello, I am mtMatt. Welcome to my English practice page. Here are something information in english.</p>]]></content>
+    <content type="html"><![CDATA[<p>After I participated three AtCoder Beginner Contest(208,209,210), I found I can just solve three to four questions. I want to solve more, but I am thinking about how to do. Maybe I should learn more DP, tree, and graph, or I need to do much more practice.</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Hello, I am mtMatt. Welcome to my English practice page. Here are something information in english.&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;After I participated three AtCoder Beginner Contest(208,209,210), I found I can just solve three to four questions. I want to solve more,</summary>
       
     
     
@@ -37,7 +36,7 @@
     <category term="info" scheme="http://eng.mtmatt.page/categories/info/"/>
     
     
-    <category term="hello" scheme="http://eng.mtmatt.page/tags/hello/"/>
+    <category term="AtCoder" scheme="http://eng.mtmatt.page/tags/AtCoder/"/>
     
   </entry>
   
@@ -46,7 +45,7 @@
     <link href="http://eng.mtmatt.page/2021/07/17/SummerVavation/"/>
     <id>http://eng.mtmatt.page/2021/07/17/SummerVavation/</id>
     <published>2021-07-17T00:00:00.000Z</published>
-    <updated>2021-07-17T11:47:17.255Z</updated>
+    <updated>2021-07-18T03:23:42.992Z</updated>
     
     <content type="html"><![CDATA[<p>Because of COVID-19, the beginning of summer vacation in Taiwan changed from 7/1 to 5/12. It sounded great to students. But it was terrible news to many parents. To me, it’s time for me to learn and practice more about programming techniques.</p>]]></content>
     
@@ -61,7 +60,7 @@
     <category term="info" scheme="http://eng.mtmatt.page/categories/info/"/>
     
     
-    <category term="hello" scheme="http://eng.mtmatt.page/tags/hello/"/>
+    <category term="taiwan" scheme="http://eng.mtmatt.page/tags/taiwan/"/>
     
   </entry>
   
