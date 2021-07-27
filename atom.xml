@@ -6,7 +6,7 @@
   <link href="http://eng.mtmatt.page/atom.xml" rel="self"/>
   
   <link href="http://eng.mtmatt.page/"/>
-  <updated>2021-07-20T12:37:25.195Z</updated>
+  <updated>2021-07-27T12:50:37.155Z</updated>
   <id>http://eng.mtmatt.page/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Why I don&#39;t play Brawl Stars for a short time?</title>
+    <link href="http://eng.mtmatt.page/2021/07/27/Why%20I%20don&#39;t%20play%20Brawl%20Stars%20for%20a%20short%20time/"/>
+    <id>http://eng.mtmatt.page/2021/07/27/Why%20I%20don&#39;t%20play%20Brawl%20Stars%20for%20a%20short%20time/</id>
+    <published>2021-07-27T00:00:00.000Z</published>
+    <updated>2021-07-27T12:50:37.155Z</updated>
+    
+    <content type="html"><![CDATA[<p>When summer vacation began, Brawl Stars started crashing. Red Wi-Fi all the time. I think it is because many children are playing with this game, and the server can’t bear. I won’t play this game until this problem fixed.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;When summer vacation began, Brawl Stars started crashing. Red Wi-Fi all the time. I think it is because many children are playing with th</summary>
+      
+    
+    
+    
+    <category term="info" scheme="http://eng.mtmatt.page/categories/info/"/>
+    
+    
+    <category term="BrawlStars" scheme="http://eng.mtmatt.page/tags/BrawlStars/"/>
+    
+  </entry>
   
   <entry>
     <title>AtCoder Beginner Contest</title>
@@ -44,30 +68,6 @@
     <title>Summer Vacation</title>
     <link href="http://eng.mtmatt.page/2021/07/17/SummerVavation/"/>
     <id>http://eng.mtmatt.page/2021/07/17/SummerVavation/</id>
-    <published>2021-07-17T00:00:00.000Z</published>
-    <updated>2021-07-18T03:23:42.992Z</updated>
-    
-    <content type="html"><![CDATA[<p>Because of COVID-19, the beginning of summer vacation in Taiwan changed from 7/1 to 5/12. It sounded great to students. But it was terrible news to many parents. To me, it’s time for me to learn and practice more about programming techniques.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Because of COVID-19, the beginning of summer vacation in Taiwan changed from 7/1 to 5/12. It sounded great to students. But it was terrib</summary>
-      
-    
-    
-    
-    <category term="info" scheme="http://eng.mtmatt.page/categories/info/"/>
-    
-    
-    <category term="taiwan" scheme="http://eng.mtmatt.page/tags/taiwan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Summer Vacation</title>
-    <link href="http://eng.mtmatt.page/2021/07/17/newpost/"/>
-    <id>http://eng.mtmatt.page/2021/07/17/newpost/</id>
     <published>2021-07-17T00:00:00.000Z</published>
     <updated>2021-07-18T03:23:42.992Z</updated>
     
